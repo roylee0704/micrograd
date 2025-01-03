@@ -8,6 +8,7 @@ RUN apt-get update && apt-get install -y \
     libssl-dev \
     git \
     curl \
+    graphviz \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Upgrade pip, setuptools, and wheel to ensure compatibility
