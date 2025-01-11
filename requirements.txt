@@ -12,3 +12,5 @@ numpy
 matplotlib
 
 graphviz
+
+torch
